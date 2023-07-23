@@ -12,281 +12,417 @@
       rel="stylesheet"
     />
     <!-- feather icon -->
-    <script src="https://unpkg.com/feather-icons"></script>
     <title>Document</title>
   </head>
-  <body class="text-offWhite">
-    <!-- <nav class="py-9 px-4">
-      <div class="bg-red-600 ml-8 mt-8 mr-8">
+  <body>
+    <nav class="max-w-screen bg-transparent pt-[40px]">
+      <div class="container lg:px-[140px] mx-auto sm:px-[30px]">
         <div class="flex justify-between">
-          <img src="../assets/img/team..png" alt="" />
-          <img src="../assets/img/menu_24px.svg" alt="" />
-        </div>
-      </div>
-      <div class="bottom-0 w-full bg-white-f5 right-0 left-0 p-2">
-        <ul class="justify-between">
-          <li class="mt-5">
-            <a href="" class="flex justify-center flex-col items-center">
-              <span class="text-base font-medium">product</span>
-            </a>
-          </li>
-          <li class="mt-5">
-            <a href="" class="flex justify-center flex-col items-center">
-              <span class="text-base font-medium">Blog</span>
-            </a>
-          </li>
-          <li class="mt-5">
-            <a href="" class="flex justify-center flex-col items-center">
-              <span class="text-base font-medium">Support</span>
-            </a>
-          </li>
-          <li class="mt-5">
-            <a href="" class="flex justify-center flex-col items-center">
-              <span class="text-base font-medium">Log In</span>
-            </a>
-          </li>
-          <li class="mt-5">
-            <button class="flex justify-center flex-col items-center">
-              Get
-            </button>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
-    <!-- hero section start -->
-    <section id="home" class="pt-60 bg-header-img">
-      <div class="container lg:pl-24 lg:pb-20 ">
-        <div class="flex flex-wrap">
-          <div class="w-full self-center px-4">
-            <h1 class="text-custom-size font-bold font-lexend pl-7 lg:mr-80">
-              Instant collaboration <br />for remote teams
-            </h1>
-            <p class="font-lexend mt-5 leading-relaxed pl-7">
-              All-in-one place for your remote <br />
-              team to chat, collaborate and <br />
-              track project progress.
-            </p>
-            
-            <div class="mt-5 sm:flex sm:justify-center lg:start-0">
-              
-              <input type="text" placeholder="email " class="py-3 px-24 lg:mr-80  " />
+          <div>
+            <img src="../assets/img/team..png" alt="logo" />
+          </div>
+          <div class="flex flex-row items-center gap-[56px]">
+            <ul class="flex gap-[56px]">
               <a
-                href=""
-                class="text-base font-lexend font-semibold bg-primary text-offWhite py-3 px-28 rounded-sm hover:opacity-90 transition duration-300 ease-in-out"
-                >Get Early Access</a
+                href="#"
+                class="font-lexend text-[16px] font-medium leading-[150%] text-white"
+                ><li>Product</li></a
               >
-            </div>
+              <a
+                href="#"
+                class="font-lexend text-[16px] font-medium leading-[150%] text-white"
+                ><li>Blog</li></a
+              >
+              <a
+                href="#"
+                class="font-lexend text-[16px] font-medium leading-[150%] text-white"
+                ><li>Suppott</li></a
+              >
+              <a
+                href="#"
+                class="font-lexend text-[16px] font-medium leading-[150%] text-white"
+                ><li>Log In</li></a
+              >
+            </ul>
+            <button
+              class="font-lexend text-[16px] font-normal leading-[150%] text-white bg-primary px-[44px] py-[10px] rounded-[4px] bg-opacity-[0.24]"
+            >
+              Get Access
+            </button>
           </div>
         </div>
       </div>
-    </section>
+    </nav>
+    <!-- hero section start -->
+    <div
+      class="max-w-screen bg-header-img h-[997px] bg-cover bg-no-repeat -mt-[100px] flex flex-col justify-center"
+    >
+      <div class="container lg:px-[140px] mx-auto px-[30px]">
+        <div class="flex flex-col justify-center w-full">
+          <h1
+            class="font-lexend text-white lg:text-[50px] font-bold lg:leading-[64px] text-[32px] leading-[150%]"
+          >
+            Instant <br class="lg:hidden block" />collaboration
+            <br class="block" />for remote <br class="lg:hidden block" />teams
+          </h1>
+          <p
+            class="font-lexend text-white lg:text-[18px] font-normal lg:leading-[27px] mt-[16px] text-[16px] leading-[24px]"
+          >
+            All-in-one place for your remote <br class="lg:hidden block" />team
+            to <br class="lg:block hidden" />chat, collaborate and
+            <br class="lg:hidden block" />track project progress.
+          </p>
+
+          <div
+            class="flex lg:flex-row flex-col lg:items-center gap-[16px] mt-[56px]"
+          >
+            <div class="relative flex flex-row items-center justify-end">
+              <input
+                type="text"
+                placeholder="email"
+                class="px-[16px] py-[11px] rounded-[4px] bg-white lg:w-[298px] w-full"
+              />
+              <span class="absolute flex pr-[16px]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                >
+                  <path
+                    d="M5.20874 13.5H16.3787L11.4987 18.38C11.1087 18.77 11.1087 19.41 11.4987 19.8C11.8887 20.19 12.5187 20.19 12.9087 19.8L19.4987 13.21C19.8887 12.82 19.8887 12.19 19.4987 11.8L12.9187 5.19996C12.7319 5.0127 12.4783 4.90747 12.2137 4.90747C11.9492 4.90747 11.6956 5.0127 11.5087 5.19996C11.1187 5.58996 11.1187 6.21996 11.5087 6.60996L16.3787 11.5H5.20874C4.65874 11.5 4.20874 11.95 4.20874 12.5C4.20874 13.05 4.65874 13.5 5.20874 13.5Z"
+                    fill="#7676B2"
+                  />
+                </svg>
+              </span>
+            </div>
+            <button
+              class="font-lexend text-[16px] font-normal leading-[150%] text-white bg-primary px-[44px] py-[10px] rounded-[4px] bg-opacity-50"
+            >
+              Get Early Access
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- hero section end-->
 
     <!-- info section start -->
-    <section id="info ">
-      <div class="container">
-        <!-- info section content 1 -->
-        <div class="flex flex-wrap text-darkBlue">
-          <div class="w-full self-end ">
-            <div class="mt-10 lg:w-2/4">
-              <img src="../assets/img/mockup.png" alt="" />
-            </div>
-          </div>
-          <div class="w-full px-4 mb-10 font-lexend mt-10 ml-7">
-            <h1 class="text-custom-size font-bold md:text-custom-size md:pt-10">
-              Chats for your <br>distributed teams
-            </h1>
-            <p class="mt-5">
-              Team combines the immediacy of real-time chat with an email <br>
-              threading model. With Team, you can catch up on important <br>
-              conversations while ignoring irrelevant ones.
-            </p>
-            <div class="mt-10 text-blue-600 ">
-              <a
-                href="#_"
-                class="relative inline-flex items-center justify-start py-3 pr-12 overflow-hidden font-semibold text-blue-600 bg-transparent"
-              >
-                <span class="absolute right-0 pr-4">
-                  <svg
-                    class="w-5 h-5 text-blue-700"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    ></path>
-                  </svg>
-                </span>
-                <span>Learn More</span>
-              </a>
-            </div>
-          </div>
+    <div class="max-w-screen mt-[82px]">
+      <div class="flex flex-col lg:flex-row-reverse items-center gap-[56px]">
+        <div>
+          <img
+            src="../assets/img/mockup.png"
+            alt="mockup"
+            class="lg:block hidden"
+          />
+          <img
+            src="../assets/img/image (3).png"
+            alt=""
+            class="lg:hidden block"
+          />
         </div>
-        <!-- info section content 2 -->
-        <div class="flex flex-wrap text-darkBlue">
-          <div class="w-full self-end px-4">
-            <div class="mt-10 relative">
-              <img
-                src="../assets/img/Calender.png"
-                alt=""
-                class="absolute ml-36"
-              />
-              <img src="../assets/img/Rectangle.png" alt="" />
-            </div>
+        <div class="pl-[140px] mx-auto">
+          <h1
+            class="font-lexend text-darkBlue text-[50px] font-bold leading-[64px]"
+          >
+            Chats for your distributed teams
+          </h1>
+          <p
+            class="font-lexend text-darkBlue text-[18px] font-normal leading-[27px] mt-[24px]"
+          >
+            Team combines the immediacy of real-time chat <br />with an email
+            threading model. With Team, you can <br />catch up on important
+            conversations while ignoring irrelevant ones.
+          </p>
+          <a
+            href=""
+            class="flex flex-row items-center mt-[48px] underline gap-[8px] font-lexend text-primary text-[16px] font-medium leading-[150%]"
+            >Learn more
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+              >
+                <path
+                  d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549Z"
+                  fill="#5468E7"
+                /></svg></span
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- info section end -->
+
+    <!-- info section start -->
+    <div class="max-w-screen mt-[120px]">
+      <div class="container px-[140px] mx-auto w-full">
+        <div class="flex flex-row items-center gap-[139px]">
+          <div class="w-1/2">
+            <img src="../assets/img/Rectangle.png" alt="distribute" />
           </div>
-          <div class="w-full px-4 mb-10 font-lexend mt-10 ml-7">
-            <h1 class="text-custom-size font-bold">
+          <div class="w-1/2">
+            <h1
+              class="font-lexend text-darkBlue text-[50px] font-bold leading-[64px]"
+            >
               Chats for your distributed teams
             </h1>
-            <p class="mt-5">
+            <p
+              class="font-lexend text-darkBlue text-[18px] font-normal leading-[27px] mt-[24px]"
+            >
               Team combines the immediacy of real-time chat with an email
               threading model. With Team, you can catch up on important
               conversations while ignoring irrelevant ones.
             </p>
-            <div class="mt-10 text-blue-600">
-              <!-- <a href="" class="text-base  font-semibold"
-              >learn more <i data-feather="arrow-right" class=""></i></a
-              > -->
-              <a
-                href="#_"
-                class="relative inline-flex items-center justify-start py-3 pr-12 overflow-hidden font-semibold text-blue-600 bg-transparent"
-              >
-                <span class="absolute right-0 pr-4">
-                  <svg
-                    class="w-5 h-5 text-blue-700"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    ></path>
-                  </svg>
-                </span>
-                <span>Learn More</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- info section content 3 -->
-        <div class="flex flex-wrap text-darkBlue">
-          <div class="w-full self-end px-4">
-            <div class="mt-10 relative">
-              <img
-                src="../assets/img/image.png"
-                alt=""
-                class="absolute pt-28 ml-52"
-              />
-              <img
-                src="../assets/img/image (1).png"
-                alt=""
-                class="absolute pt-52 ml-52"
-              />
-              <img src="../assets/img/Rectangle (1).png" alt="" />
-            </div>
-          </div>
-          <div class="w-full px-4 mb-10 font-lexend mt-10 ml-7">
-            <h1 class="text-custom-size font-bold">
-              Choose how you want to work
-            </h1>
-            <p class="mt-5">
-              In Team, you’ve got all the flexibility to work when, where and
-              how it’s best for you. You can easily chat, send audio and video
-              clips, or hop on a huddle to talk things out live.
-            </p>
-            <div class="mt-10 text-blue-600">
-              <!-- <a href="" class="text-base  font-semibold"
-              >learn more <i data-feather="arrow-right" class=""></i></a
-              > -->
-              <a
-                href="#_"
-                class="relative inline-flex items-center justify-start py-3 pr-12 overflow-hidden font-semibold text-blue-600 bg-transparent"
-              >
-                <span class="absolute right-0 pr-4">
-                  <svg
-                    class="w-5 h-5 text-blue-700"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    ></path>
-                  </svg>
-                </span>
-                <span>Learn More</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- info section content 4-->
-        <div class="flex flex-wrap text-darkBlue">
-          <div class="w-full self-end px-4">
-            <div class="mt-10 relative ">
-              <img
-                src="../assets/img/image (3).png "
-                alt=""
-                class="absolute pt-24 ml-3"
-              />
-              <img
-                src="../assets/img/image (4).png"
-                alt=""
-                class="absolute pt-72 ml-3"
-              />
-              <img src="../assets/img/Rectangle (1).png" alt="" />
-            </div>
-          </div>
-          <div class="w-full px-4 mb-10 font-lexend mt-10 ml-7">
-            <h1 class="text-custom-size font-bold">
-              Choose how you want to work
-            </h1>
-            <p class="mt-5">
-              In Team, you’ve got all the flexibility to work when, where and
-              how it’s best for you. You can easily chat, send audio and video
-              clips, or hop on a huddle to talk things out live.
-            </p>
-            <div class="mt-10 text-blue-600">
-              <a
-                href="#_"
-                class="relative inline-flex items-center justify-start py-3 pr-12 overflow-hidden font-semibold text-blue-600 bg-transparent"
-              >
-                <span class="absolute right-0 pr-4">
-                  <svg
-                    class="w-5 h-5 text-blue-700"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    ></path>
-                  </svg>
-                </span>
-                <span>Learn More</span>
-              </a>
-            </div>
+            <a
+              href=""
+              class="flex flex-row items-center mt-[48px] underline gap-[8px] font-lexend text-primary text-[16px] font-medium leading-[150%]"
+              >Learn more
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <path
+                    d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549Z"
+                    fill="#5468E7"
+                  /></svg></span
+            ></a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- info section end -->
+
+    <!-- info section start -->
+    <div class="max-w-screen mt-[120px]">
+      <div class="container px-[140px] mx-auto w-full">
+        <div class="flex flex-col lg:flex-row-reverse items-center gap-[139px]">
+          <div class="w-1/2">
+            <img src="../assets/img/Rectangle (1).png" alt="work" />
+          </div>
+          <div class="w-1/2">
+            <h1
+              class="font-lexend text-darkBlue text-[50px] font-bold leading-[64px]"
+            >
+              Choose how you want to work
+            </h1>
+            <p
+              class="font-lexend text-darkBlue text-[18px] font-normal leading-[27px] mt-[24px]"
+            >
+              In Team, you’ve got all the flexibility to work when, where and
+              how it’s best for you. You can easily chat, send audio and video
+              clips, or hop on a huddle to talk things out live.
+            </p>
+            <a
+              href=""
+              class="flex flex-row items-center mt-[48px] underline gap-[8px] font-lexend text-primary text-[16px] font-medium leading-[150%]"
+              >Learn more
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <path
+                    d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549Z"
+                    fill="#5468E7"
+                  /></svg></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- info section end -->
+
+    <!-- info section start -->
+    <div class="max-w-screen mt-[120px]">
+      <div class="container px-[140px] mx-auto w-full">
+        <div class="flex flex-row items-center gap-[139px]">
+          <div class="w-1/2">
+            <img src="../assets/img/team-tools.png" alt="team-tools" />
+          </div>
+          <div class="w-1/2">
+            <h1
+              class="font-lexend text-darkBlue text-[50px] font-bold leading-[64px]"
+            >
+              Chats for your distributed teams
+            </h1>
+            <p
+              class="font-lexend text-darkBlue text-[18px] font-normal leading-[27px] mt-[24px]"
+            >
+              Team combines the immediacy of real-time chat with an email
+              threading model. With Team, you can catch up on important
+              conversations while ignoring irrelevant ones.
+            </p>
+            <a
+              href=""
+              class="flex flex-row items-center mt-[48px] underline gap-[8px] font-lexend text-primary text-[16px] font-medium leading-[150%]"
+              >Learn more
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <path
+                    d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549Z"
+                    fill="#5468E7"
+                  /></svg></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- info section end -->
+
+    <!-- footer -->
+    <div
+      class="max-w-screen lg:mt-[164px] bg-darkBlue lg:h-[500px] flex flex-col"
+    >
+      <div class="container px-[140px] mx-auto pt-[73px]">
+        <div class="flex flex-row w-full">
+          <div class="flex flex-col w-[20%] gap-[16px]">
+            <div>
+              <img src="../assets/img/team..png" alt="logo" />
+            </div>
+            <p
+              class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+            >
+              Collaboration platform <br />for mordern team
+            </p>
+          </div>
+          <div class="flex flex-col w-[20%] gap-[16px]">
+            <h1
+              class="font-lexend text-primary text-[24px] font-normal leading-[30px]"
+            >
+              Company
+            </h1>
+            <ul class="flex flex-col gap-[16px]">
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>Product</li></a
+              >
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>Blog</li></a
+              >
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>Support</li></a
+              >
+            </ul>
+          </div>
+          <div class="flex flex-col w-[20%] gap-[16px]">
+            <h1
+              class="font-lexend text-primary text-[24px] font-normal leading-[30px]"
+            >
+              Features
+            </h1>
+            <ul class="flex flex-col gap-[16px]">
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>Screen Sharing</li></a
+              >
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>iOS & Android Apps</li></a
+              >
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>File Sharing</li></a
+              >
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>User Managment</li></a
+              >
+            </ul>
+          </div>
+          <div class="flex flex-col w-[20%] gap-[16px]">
+            <h1
+              class="font-lexend text-primary text-[24px] font-normal leading-[30px]"
+            >
+              Contact Us
+            </h1>
+            <ul class="flex flex-col gap-[16px]">
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>info@teamapp.com</li></a
+              >
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>1-800-200-300</li></a
+              >
+              <a
+                href=""
+                class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px]"
+                ><li>1010 Sunset Blv. Palo Alto, California</li></a
+              >
+            </ul>
+          </div>
+          <div class="flex flex-col w-[20%]">
+            <h1
+              class="font-lexend text-primary text-[24px] font-normal leading-[30px]"
+            >
+              Stay up to date
+            </h1>
+            <p
+              class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px] mt-[16px]"
+            >
+              Subscribe to our newseller
+            </p>
+            <div
+              class="relative flex flex-row items-center justify-end mt-[10px]"
+            >
+              <input
+                type="text"
+                placeholder="email"
+                class="px-[16px] py-[11px] rounded-[4px] bg-white bg-opacity-[0.24] w-[268px]"
+              />
+              <span class="absolute flex pr-[16px]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                >
+                  <path
+                    d="M5.20874 13.5H16.3787L11.4987 18.38C11.1087 18.77 11.1087 19.41 11.4987 19.8C11.8887 20.19 12.5187 20.19 12.9087 19.8L19.4987 13.21C19.8887 12.82 19.8887 12.19 19.4987 11.8L12.9187 5.19996C12.7319 5.0127 12.4783 4.90747 12.2137 4.90747C11.9492 4.90747 11.6956 5.0127 11.5087 5.19996C11.1187 5.58996 11.1187 6.21996 11.5087 6.60996L16.3787 11.5H5.20874C4.65874 11.5 4.20874 11.95 4.20874 12.5C4.20874 13.05 4.65874 13.5 5.20874 13.5Z"
+                    fill="#7676B2"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <p
+          class="font-lexend text-white text-[14px] font-normal leading-[23px] tracking-[0.14px] flex flex-col justify-end mt-[171px]"
+        >
+          © Copyright Team Inc.
+        </p>
+      </div>
+    </div>
 
     <script>
       feather.replace();

@@ -5,23 +5,15 @@ module.exports = {
     extend: {
       colors: {
         primary: "#5468E7",
-        offWhite : "#F5F5F5",
-        darkBlue : "#232340",
-        
+        darkBlue: "#232340",
+        white: "#F5F5F5",
       },
       fontFamily: {
         lexend: ["Lexend Deca"],
       },
-      marginRight: {
-        "80": "140px",
+      backgroundImage: {
+        "header-img": "url('../assets/img/header.png')",
       },
-      fontSize: {
-        "custom-size": "34px",
-      },
-      backgroundImage: (theme) => ({
-        'header-img' : "url('../assets/img/header.png')",
-      }),
-
     },
   },
   plugins: [],
