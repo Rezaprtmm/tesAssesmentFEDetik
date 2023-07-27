@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         "header-img": "url('../assets/img/header.png')",
+        "header-mobile": "url('../assets/img/bg-mobile.png')",
       },
     },
   },
